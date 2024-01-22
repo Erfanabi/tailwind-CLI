@@ -1,0 +1,16 @@
+{
+  "name": "e02-tailwind-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "pro": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
